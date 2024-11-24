@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Environment variables
 .env
 .venv
@@ -5,6 +6,9 @@ env/
 venv/
 ENV/
 
+=======
+.env
+>>>>>>> 62f2683cf912b538ebc8f2590962e205658a0cbe
 # Python
 __pycache__/
 *.py[cod]
@@ -27,12 +31,26 @@ wheels/
 .installed.cfg
 *.egg
 
+<<<<<<< HEAD
 # IDEs and Editors
+=======
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# IDE specific files
+>>>>>>> 62f2683cf912b538ebc8f2590962e205658a0cbe
 .idea/
 .vscode/
 *.swp
 *.swo
 .DS_Store
+<<<<<<< HEAD
 *.sublime-workspace
 *.sublime-project
 
@@ -53,6 +71,14 @@ coverage.xml
 *.cover
 .hypothesis/
 .pytest_cache/
+=======
+
+# Project specific
+*.log
+logs/
+*.db
+*.sqlite3
+>>>>>>> 62f2683cf912b538ebc8f2590962e205658a0cbe
 
 # Distribution / packaging
 .Python
@@ -68,10 +94,15 @@ parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
+=======
+share/python-wheels/
+>>>>>>> 62f2683cf912b538ebc8f2590962e205658a0cbe
 *.egg-info/
 .installed.cfg
 *.egg
 
+<<<<<<< HEAD
 # Jupyter Notebook
 .ipynb_checkpoints
 
@@ -79,3 +110,20 @@ wheels/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+=======
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+Multimodal_RAG/
+>>>>>>> 62f2683cf912b538ebc8f2590962e205658a0cbe
